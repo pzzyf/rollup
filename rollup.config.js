@@ -10,7 +10,7 @@ const buildOptions = {
       format: "esm",
     },
     {
-      dir: "dist/es",
+      dir: "dist/cjs",
       format: "cjs",
     },
   ],

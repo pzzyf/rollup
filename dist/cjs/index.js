@@ -1,3 +1,5 @@
+'use strict';
+
 const add = (a, b) => a + b;
 
 console.log(add(1, 1));

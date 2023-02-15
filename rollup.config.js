@@ -1,3 +1,6 @@
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+
 /**
  * @type { import('rollup').RollupOptions }
  */
@@ -14,6 +17,7 @@ const buildOptions = {
       format: "cjs",
     },
   ],
+  plugins: [resolve(), commonjs()],
 };
 
 export default buildOptions;

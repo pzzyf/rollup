@@ -5,9 +5,11 @@
   "main": "rollup.config.js",
   "type": "module",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "lodash": "^4.17.21",
     "rollup": "^3.15.0"
   },
-  "devDependencies": {},
   "scripts": {
     "build": "rollup -c"
   },

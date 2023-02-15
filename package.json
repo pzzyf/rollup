@@ -1,7 +1,6 @@
 {
   "name": "rollup",
   "version": "1.0.0",
-  "description": "",
   "main": "rollup.config.js",
   "type": "module",
   "dependencies": {
@@ -23,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/pzzyf/rollup/issues"
   },
-  "homepage": "https://github.com/pzzyf/rollup#readme"
+  "homepage": "https://github.com/pzzyf/rollup#readme",
+  "devDependencies": {},
+  "description": ""
 }
